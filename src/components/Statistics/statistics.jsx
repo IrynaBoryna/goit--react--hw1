@@ -2,9 +2,7 @@ import PropTypes from 'prop-types';
 import css from './statistics.module.css';
 
 export const StatisticsTitle = ({ title }) => {
-	if ( title  = undefined || "") {
-		return
-	}
+	 title  = !undefined 
   return <h2 className={css.statTitle}>{title}</h2>;
 };
 export const Statistics = ({ stats }) => {
